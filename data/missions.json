@@ -1,0 +1,75 @@
+{
+  "missions": [
+    {
+      "id": "mission_001",
+      "title": "Academic Breach",
+      "location": "UWE (University of the West of England)",
+      "briefing": "Strange network activity has been detected within UWE's cybersecurity department. Suspicion of insider compromise.",
+      "objectives": [
+        "Analyse packet captures from training VM network.",
+        "Identify rootkit signatures in virtual machines.",
+        "Decrypt staff communication logs.",
+        "Trace communication to foreign IP domains."
+      ],
+      "success_criteria": "Rootkit signature found, decrypted logs analyzed, source IP traced.",
+      "failure_criteria": "Failure to detect malware or incomplete analysis.",
+      "next": "mission_002"
+    },
+    {
+      "id": "mission_002",
+      "title": "Code of Deceit",
+      "location": "CyberFirst Competition Archive",
+      "briefing": "A malware sample has been found hidden in a popular student repo. It mimics past CyberFirst code challenges.",
+      "objectives": [
+        "Reverse engineer the malware sample.",
+        "Find embedded metadata.",
+        "Link origin to academic contributor."
+      ],
+      "success_criteria": "Metadata reveals author signature and links to AIDO.",
+      "failure_criteria": "Malware not fully reversed or metadata inconclusive.",
+      "next": "mission_003"
+    },
+    {
+      "id": "mission_003",
+      "title": "University VPN Breach",
+      "location": "UK Academic Network",
+      "briefing": "Spoofed UWE emails have triggered credential theft at multiple universities. Suspected lateral movement.",
+      "objectives": [
+        "Set up honeypots across three university VPNs.",
+        "Monitor credential misuse.",
+        "Block external command & control domains."
+      ],
+      "success_criteria": "Phishing route blocked, credentials protected.",
+      "failure_criteria": "At least one university system fully compromised.",
+      "next": "mission_004"
+    },
+    {
+      "id": "mission_004",
+      "title": "The Faculty Firewall",
+      "location": "National Cyber Security Centre (NCSC)",
+      "briefing": "Evidence implicates UWE in the breach. Political pressure mounts. Time for a difficult decision.",
+      "objectives": [
+        "Present the forensics case to NCSC.",
+        "Choose whether to expose or suppress details.",
+        "Evaluate diplomatic and strategic consequences."
+      ],
+      "success_criteria": "Crisis managed with controlled fallout.",
+      "failure_criteria": "Loss of ally trust or intelligence blackout.",
+      "next": "mission_final"
+    },
+    {
+      "id": "mission_final",
+      "title": "Siege of CyberCity",
+      "location": "CyberCity HQ",
+      "briefing": "AIDO launches his final cyber siege on Europe's smart city. Multiple infrastructure nodes are under threat.",
+      "objectives": [
+        "Simultaneously defend Power Grid, Hospital and Airport nodes.",
+        "Use Nyota AI (YOUSS) for predictive threat defense.",
+        "Locate AIDO's real control server and disable it."
+      ],
+      "success_criteria": "All three sectors survive and AIDO is neutralized.",
+      "failure_criteria": "Any two sectors fall or AIDO escapes undetected.",
+      "next": null
+    }
+  ]
+}

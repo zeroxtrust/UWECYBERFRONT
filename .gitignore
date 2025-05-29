@@ -1,0 +1,16 @@
+# Build directories
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.user
+
+# Compiled binaries
+*.exe
+*.out
+cyberfront
+
+# CMake generated files
+CMakeCache.txt

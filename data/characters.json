@@ -1,0 +1,58 @@
+{
+  "characters": [
+    {
+      "id": "ph01",
+      "codename": "PHILONO",
+      "name": "Unknown",
+      "role": "Player Character / Commander",
+      "affiliation": "EU Cyber Defense",
+      "bio": "Silent operator and leader of the PHILONO task force. Background classified.",
+      "skills": ["Strategic planning", "Threat coordination", "Diplomacy"]
+    },
+    {
+      "id": "ai01",
+      "codename": "AIDO",
+      "name": "Dr. Demetri Dobrev",
+      "role": "Antagonist",
+      "affiliation": "Former UWE Lecturer / Rogue Russian Cyber Operative",
+      "bio": "Cybersecurity educator turned traitor. Mastermind behind the Digital Siege.",
+      "skills": ["Rootkit engineering", "Insider threats", "Supply chain manipulation"]
+    },
+    {
+      "id": "yo01",
+      "codename": "YOUSS",
+      "name": "Dr. Yousef E",
+      "role": "AI Strategist / Ally",
+      "affiliation": "African Cyber Alliance",
+      "bio": "Founder of Nyota, Africa's first predictive threat detection AI. Brilliant, ethical, and suspicious of Western overreach.",
+      "skills": ["AI defense", "Threat prediction", "Digital sovereignty"]
+    },
+    {
+      "id": "by01",
+      "codename": "BYTE",
+      "name": "BYTE",
+      "role": "AI Assistant",
+      "affiliation": "PHILONO",
+      "bio": "Embedded AI trained on billions of log entries and threat patterns. Offers analysis, recommendations, and sarcastic remarks.",
+      "skills": ["Forensics", "Log analysis", "Pattern matching"]
+    },
+    {
+      "id": "sa01",
+      "codename": "SAGE",
+      "name": "Elena Vos",
+      "role": "Cryptography Expert",
+      "affiliation": "PHILONO",
+      "bio": "Ex-military cryptographer who now cracks and builds encryption systems.",
+      "skills": ["Encryption", "Decryption", "Quantum-safe algorithms"]
+    },
+    {
+      "id": "sp01",
+      "codename": "SPINNER",
+      "name": "Jamal Beckett",
+      "role": "Social Engineering Analyst",
+      "affiliation": "PHILONO",
+      "bio": "Psychologist and human behavior hacker. Trained to detect phishing, deepfakes, and manipulation.",
+      "skills": ["Social engineering", "Phishing detection", "Behavioral analysis"]
+    }
+  ]
+}
