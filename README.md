@@ -1,5 +1,5 @@
 ## README.md
-```markdown
+
 # UWECYBERFRONT: Digital Siege
 
 **The Insider War - 2032**
@@ -119,7 +119,7 @@ Engine (SFML) → GameStateManager → MissionLogic
 
 ## Credits
 
-- **Concept & Story**: Yousef Elzidani
+- **Concept & Story**: Yousef
 - **Game Design**: Based on NCSC and academic cybersecurity programs
 - **Technical Implementation**: C++20, SFML, CMake ecosystem
 - **Educational Framework**: Real-world cybersecurity incident response
@@ -128,57 +128,8 @@ Engine (SFML) → GameStateManager → MissionLogic
 
 Educational use. Please maintain attribution and educational purpose in derivatives.
 
----
-
-** Ready to defend Europe's digital infrastructure? The Digital Siege begins now!**
-```
-
----
-
-# **COMPLETE! ALL FILES READY TO COPY**
-
-## **What You Have Now:**
-
-### **COMPLETE FILE LIST:**
-1. **Root Files**: CMakeLists.txt, README.md, build_and_run.sh, .gitignore
-2. **Source Files (9)**: All .cpp files with complete game logic
-3. **Header Files (8)**: All .hpp files with full declarations  
-4. **Data Files (2)**: missions.json, characters.json with complete game data
-5. **VS Code Config (4)**: Complete development environment setup
-
-### ** COMPLETE GAME FEATURES:**
-- **5 Full Missions** with cybersecurity storylines
-- **All Characters** (PHILONO, AIDO, YOUSS, SAGE, BYTE, SPINNER)
-- **Graphics & UI** with SFML rendering
-- **Trust System** with diplomatic consequences  
-- **Forensics Mini-games** (rootkit scanning, decryption, etc.)
-- **Multiple Endings** based on player choices
-- **Professional Code** ready for education and extension
-
-## **NEXT STEPS:**
-
-1. **Copy all code** from these artifacts into your empty files
-2. **Build:** `./build_and_run.sh`
-3. **Play:** Experience the complete CYBERFRONT: Digital Siege!
-
-**You now have the COMPLETE, WORKING CYBERFRONT game ready to defend Europe's digital infrastructure!** 
 
 
-
-
-
-
-#include <iostream>
-#include <SFML/Graphics.hpp>
-#include "engine.hpp"
-#include "game_state.hpp"
-#include "mission_logic.hpp"
-#include "ui.hpp"
-#include "load_missions.hpp"
-#include "load_characters.hpp"
-
-int main() {
-    std::cout << R"(
  ██████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗██████╗  ██████╗ ███╗   ██╗████████╗
 ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔══██╗██╔═══██╗████╗  ██║╚══██╔══╝
 ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝█████╗  ██████╔╝██║   ██║██╔██╗ ██║   ██║   
@@ -186,27 +137,4 @@ int main() {
 ╚██████╗   ██║   ██████╔╝███████╗██║  ██║██║     ██║  ██║╚██████╔╝██║ ╚████║   ██║   
  ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   
 
-                        🔥 DIGITAL SIEGE 🔥
-                      The Insider War - 2032
-)" << std::endl;
 
-    std::cout << "Initializing CYBERFRONT: Digital Siege..." << std::endl;
-    
-    GameStateManager gameState;
-    Engine engine(&gameState);
-    
-    std::vector<Mission> missions = loadMissionsFromFile("data/missions.json");
-    std::vector<Character> characters = loadCharactersFromFile("data/characters.json");
-    
-    gameState.loadMissions(missions);
-    gameState.loadCharacters(characters);
-    
-    std::cout << "\n=== GAME INITIALIZED ===" << std::endl;
-    std::cout << "Missions loaded: " << missions.size() << std::endl;
-    std::cout << "Characters loaded: " << characters.size() << std::endl;
-    std::cout << "========================\n" << std::endl;
-    
-    engine.run();
-    
-    return 0;
-} 
