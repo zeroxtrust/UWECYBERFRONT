@@ -125,6 +125,5 @@ Engine (SFML) → GameStateManager → MissionLogic
 - **Educational Framework**: Real-world cybersecurity incident response
 
 ## License
-                           
 
-
+Only for Educational and related purposes
