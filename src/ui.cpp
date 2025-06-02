@@ -32,13 +32,13 @@ void UI::setupFonts() {
     for (const auto& path : font_paths) {
         if (font.loadFromFile(path)) {
             font_loaded = true;
-            std::cout << "[UI] ✅ Font loaded from: " << path << std::endl;
+            std::cout << "[UI] Font loaded from: " << path << std::endl;
             break;
         }
     }
     
     if (!font_loaded) {
-        std::cout << "[UI] ❌ No fonts found - text may not display properly" << std::endl;
+        std::cout << "[UI] No fonts found - text may not display properly" << std::endl;
     }
 }
 
@@ -294,7 +294,7 @@ void UI::renderInMission() {
     if (font_loaded) {
         controls.setFont(font);
     }
-    controls.setString("🎮 CONTROLS:");
+    controls.setString(" CONTROLS:");
     controls.setCharacterSize(20);
     controls.setFillColor(primary_color);
     controls.setPosition(50, 350);
