@@ -1,4 +1,4 @@
-## README.md
+![UWECyberfront](https://github.com/user-attachments/assets/f41aa9b5-a9da-4592-bc2b-2cce32784f57)
 
 # UWECYBERFRONT: Digital Siege
 
@@ -125,15 +125,6 @@ Engine (SFML) → GameStateManager → MissionLogic
 - **Educational Framework**: Real-world cybersecurity incident response
 
 ## License
+                           
 
-Educational use. Please maintain attribution and educational purpose in derivatives.
-""""""""""""""""""""""""
-██╗   ██╗██╗    ██╗███████╗     ██████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗██████╗  ██████╗ ███╗   ██╗████████╗
-██║   ██║██║    ██║██╔════╝    ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔══██╗██╔═══██╗████╗  ██║╚══██╔══╝
-██║   ██║██║ █╗ ██║█████╗      ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝█████╗  ██████╔╝██║   ██║██╔██╗ ██║   ██║   
-██║   ██║██║███╗██║██╔══╝      ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██╔══╝  ██╔══██╗██║   ██║██║╚██╗██║   ██║   
-╚██████╔╝╚███╔███╔╝███████╗    ╚██████╗   ██║   ██████╔╝███████╗██║  ██║██║     ██║  ██║╚██████╔╝██║ ╚████║   ██║   
- ╚═════╝  ╚══╝╚══╝ ╚══════╝     ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   
-                                                                                           """"""""""""""""""""""""                              
 
-![UWECyberfront](https://github.com/user-attachments/assets/f41aa9b5-a9da-4592-bc2b-2cce32784f57)
